@@ -1,0 +1,12 @@
+name: TECH2
+channels:
+  - defaults
+dependencies:
+  - python=3.13
+  - numpy=2.3.1
+  - scipy=1.13
+  - matplotlib=3.10
+  - pandas=2.2.3
+  - openpyxl=3.1
+  - notebook
+  - black=25.1
