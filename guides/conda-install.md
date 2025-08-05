@@ -31,4 +31,4 @@
     conda env create -f environment.yml
     ```
    Note that this must be run from the directory where `environment.yml`
-   is located and creates an environment called `FIE463`.
+   is located and creates an environment called `TECH2`.

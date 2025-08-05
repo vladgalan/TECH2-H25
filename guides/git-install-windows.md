@@ -30,9 +30,9 @@ git config --global user.email johndoe@student.nhh.no
 ### Cloning from GitHub
 
 If you want to clone an existing repository hosted in GitHub (for example the [course 
-repository](https://github.com/richardfoltyn/FIE463-V25)), process as follows:
+repository](https://github.com/richardfoltyn/TECH2-H25)), process as follows:
 ```bash
-git clone https://github.com/richardfoltyn/FIE463-V25.git
+git clone https://github.com/richardfoltyn/TECH2-H25.git
 ```
 
 ### Adding a GitHub remote to your existing repository
