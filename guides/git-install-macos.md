@@ -63,13 +63,13 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKjhZ7rUTC3ldXmp+dBOShXU8907YVHVWV3T7ciJ3xoW
 See [these instructions](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account) 
 on how to add the key to your GitHub account.
 
-## GitHub integration (optional)
+## GitHub integration
 
 
 ### Cloning from GitHub
 
 If you want to clone an existing repository hosted in GitHub (for example the [course 
-repository](https://github.com/richardfoltyn/TECH2-H25)), process as follows:
+repository](https://github.com/richardfoltyn/TECH2-H25)), proceed as follows:
 ```bash
 git clone git@github.com:richardfoltyn/TECH2-H25.git
 ```

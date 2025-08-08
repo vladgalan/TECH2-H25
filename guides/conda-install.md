@@ -19,16 +19,20 @@
     [this guide](https://docs.anaconda.com/anaconda/install/) 
     if needed.
 
-## Create an Anaconda environment (optional)
+## Creating an Anaconda environment
 
-- The Anaconda installation comes with a default environment called `base`
-  which contains most if not all packages required for this course.
-- Alternatively, you can create a course-specific environment
-  from the environment definition file [`environment.yml`](../environment.yml).
-- To do so, use the Anaconda Prompt (Windows) or the terminal (macOS)
-  and copy the following code:
+-   The Anaconda installation comes with a default environment called `base`
+    which contains most if not all packages required for this course.
+-   Alternatively, you can create a course-specific environment
+    from the environment definition file [`environment.yml`](../environment.yml).
+
+    This has the advantage that the Python and package versions you use 
+    are the same as those used by the lecturer.
+
+-   To do so, use the Anaconda Prompt (Windows) or the terminal (macOS)
+    and copy the following code:
     ```bash
     conda env create -f environment.yml
     ```
-   Note that this must be run from the directory where `environment.yml`
-   is located and creates an environment called `TECH2`.
+    Note that this must be run from the directory where `environment.yml`
+    is located and creates an environment called `TECH2`.
