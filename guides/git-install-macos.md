@@ -25,9 +25,25 @@ and follow the instructions. See [this guide](https://mac.install.guide/commandl
       
 ### Alternative 2
 
-You can alternatively install git from from [homebrew](https://brew.sh/). 
+You can alternatively install git from [homebrew](https://brew.sh/). 
 Homebrew is not part of macOS and needs to be installed first, see 
 [this video guide](https://youtu.be/B4qsvQ5IqWk).
+
+In short, you need to execute the following command in the terminal
+to first install homebrew:
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+Once this is complete, you can install git with the following command:
+```bash
+brew install git
+```
+To verify that git was installed, paste the following into the terminal:
+```bash
+git --version
+```
+If you encounter problems along the way, watch the video linked above
+for more detailed instructions.
 
 
 ## Configuration
