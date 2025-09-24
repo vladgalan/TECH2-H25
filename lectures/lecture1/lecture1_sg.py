@@ -22,10 +22,24 @@ Tasks
 import numpy as np
 
 def argmax(Listin:list) -> int:
-    index_dict = {Listin[i]:i for i in range(0, len(Listin))} 
-    max_index = index_dict[np.array(Listin).max()]
-    print(index_dict)
-    return max_index
+    if len(Listin) == 0:
+        print("List is empty error")
+        return None
+    else:
+        index_dict = {Listin[i]:i for i in range(0, len(Listin))} 
+        max_index = index_dict[np.array(Listin).max()]
+        print(index_dict)
+        return max_index
+        
+        """numpy solution
+        Arr = np.array(Listin)
+        max_index = np.where(Listin = Listin.max())[0]
+        print(max_index)
+
+        show off solution
+        arr.index(max(arr))
+        """
 
 print(argmax([1, 10, -1, 7, 4]))
+print(argmax([]))
 
